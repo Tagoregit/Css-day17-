@@ -44,7 +44,7 @@ p{
     background-color: aliceblue;
    display: flex;
    justify-content: end;
-   display: none;
+   /* display: none; */
 } 
 .div3{
     width: 400px;
@@ -79,11 +79,14 @@ p{
     border-radius: 50%;
     font-size: 30px;
 }
-.footer:hover .icon:hover{
+.footer:hover.icon{
     background-color: blue;
+    cursor: pointer;
+    
 }
-.container:hover .footer:hover{
-    display: flex;
+.footer:hover{
+    display: none;
+    cursor: pointer;
 }
 
 
